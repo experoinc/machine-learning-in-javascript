@@ -1,0 +1,33 @@
+{
+  "name": "machine-learning-in-javascript",
+  "version": "1.0.0",
+  "description": "Machine Learning in JS course materials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/experoinc/machine-learning-in-javascript.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "javascript",
+    "jupyter"
+  ],
+  "author": "steve purves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/experoinc/machine-learning-in-javascript/issues"
+  },
+  "homepage": "https://github.com/experoinc/machine-learning-in-javascript#readme",
+  "dependencies": {
+    "csv-parse": "^1.2.2",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3",
+    "plotly": "^1.0.6",
+    "plotly-notebook-js": "^0.1.2",
+    "vis": "^4.20.1"
+  }
+}
