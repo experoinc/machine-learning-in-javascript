@@ -54,6 +54,11 @@ Steve Purves, [Expero inc](www.experoinc.com).
 
 ### Sources of Data
  
- - https://github.com/viisar/awesome-datasets
- - https://github.com/caesar0301/awesome-public-datasets
- - https://github.com/caesar0301/awesome-public-datasets#machine-learning
+ - [UCI Machine Learning Repo](http://archive.ics.uci.edu/ml/index.php)
+   - Wine Dataset
+   - Acknowledgement - Lichman, M. (2013). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
+
+ - Big Lists
+   - https://github.com/viisar/awesome-datasets
+   - https://github.com/caesar0301/awesome-public-datasets
+   - https://github.com/caesar0301/awesome-public-datasets#machine-learning

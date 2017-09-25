@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/experoinc/machine-learning-in-javascript#readme",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "csv-parse": "^1.2.2",
     "lodash": "^4.17.4",
     "node-fetch": "^1.7.3",
+    "pandas-js": "^0.2.4",
     "plotly": "^1.0.6",
     "plotly-notebook-js": "^0.1.2",
     "vis": "^4.20.1"
