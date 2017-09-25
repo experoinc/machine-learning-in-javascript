@@ -16,8 +16,8 @@ Steve Purves, [Expero inc](www.experoinc.com).
   - [ ] Docker Option
   - [->] [What's Loaded (nb)](0_smoke_test.ipynb)
   - [->] [Hello Notebook (nb)](1_hello_notebook.ipynb)
-  - [ ] [Hello Plotly](2_hello_plotly.ipynb)
-  - [ ] [Hello Datasets]()
+  - [->] [Hello Plotly](2_hello_plotly.ipynb)
+  - [->] [Hello Datasets]()
 - Part 1 - Key Concepts
   - [ ] Vectors, Distances & Spaces (nb)
     - Vector spaces
