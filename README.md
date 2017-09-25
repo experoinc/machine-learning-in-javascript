@@ -1,83 +1,40 @@
 # Machine Learning In Javascript
 
-Materials for the Machine Learning in Javascript Course by Expero inc
+Materials for the Machine Learning in Javascript Workshop by Expero inc
 
-Presented at the (Mcubed Machine Leanring Confernece, London, Oct 2017)[http://www.mcubed.london/sessions/workshop-introduction-to-machine-learning-with-javascript/]
+Given at the [M3 Machine Learning Conference, London, Oct 2017](http://www.mcubed.london/sessions/workshop-introduction-to-machine-learning-with-javascript/)
 
+For an overview of the content see the [course outline](OUTLINE.md)
 
-## How to get setup for the course
+## Getting Setup
 
-### Part 1 - Jupyter Notebook Setup
+The first part of the course will be run in Jupyter notebooks. Jupyter is a REPL like interface embedded in a web page which is good for experimentation and exploratory development.
 
-The first part of the course will be run in Jupyter. Jupyter is a REPL like interface embedded in a
-web page which is good for experimentation and exploratory development. Its a standard tool in python
-for data science and well be using it with the Javascript kernel.
+It's a standard tool in python for data science. Using it means we install a python distribution even though we are working in javascript. If you are learning ML *some* python is likely in your future anyways so we can maybe live with that.
 
-This means installing python ro run the nodebook and then the JS kernel and dependencies that we need.
+### Installing python and the notebook kernel
 
- - Install an IPython distribution - Try (Anaconda)[] especially if you are interested in moving on to some the python tools after the conference
- - Install (node.js)[https://nodejs.org/en/] (v8.5.0 or later)
- - Install IJavascript kernel - `npm install -g ijavascript`
-    - if you are running on linux check out the instructions on (this page)[http://n-riesco.github.io/ijavascript/doc/install.md.html]   
- - Install Javascript dependencies - `npm install` :)
+ 1. Install an IPython distribution
+   - I recomend installing [Anaconda 3.6](https://www.anaconda.com/download/) it is heayweight but that is the distibution I have tested with and if you are interested in moving on apply some of the things you have learnt after the conference in python too, then this is a good starting point.
+ 2. Install [node.js](https://nodejs.org/en/) we are using v8.5.x.
+   - If you already have node installed and don't want ot mess with your local environement install `nvm` and install node v8.5.x from there. 
+     - on Mac [nvm](https://github.com/creationix/nvm/blob/master/README.md)
+     - on Windows [nvm-windows](https://github.com/coreybutler/nvm-windows)
+ 3. Install the `jp-babel` variant of the IJavascript kernel
+    - `npm install -g jp-babel`
+    - if you are running on linux check out the instructions on [this page](http://n-riesco.github.io/ijavascript/doc/install.md.html)
+ 4. Install Javascript dependencies
+   - run `npm install` in the repo root folder :)
+ 5. Start the notebook
+   - run `jp-babel-notebook` in the repo root folder
+   - a web browser should pop up showing the Jupyter browser / tree view of the current folder.
+ 6. From Jupyter, open the [smoke test notebook](0_smoke_test.ipynb)
+   - When the notebook opens you should be able to see the `jp-babel` javascript kernel loaded in the top left corner.
 
-### Part 2 - Deep learning & Neural Neworks
+     ![jp-babel kernel](images/jp-babel-kernel-loaded.png)
 
-### Part 3 - Running Keras.js models in the browser
+   - If not, go to `Kernel Menu` > `Change Kernel` and select the `jp-babel` option and follow the prompts.
+   - In the `Cell Menu`, select `Run All`. Each cell should execute and if all dependencies are properly installed we shouldn't see any errors.
 
-
-
-## Course Outline
-
-
-- Icebreaker
-  - [ ] Warn Up 
-  - [ ] Menti Meter
-- Introduction
- - [ ] Why not JavaScript? (slides)
-   - Where ML in JS takes us (slides)
-   - What the ML JS landscape is like
- - [ ] 
- - [ ] Course Outline (slides)
- - [ ]
-- Checking Environment Setup & Sharpening of Tools
- - [ ] Installation Instructions
- - [ ] Docker Option
- - [ ] Nodebook Startup
- - [ ] Hello Notebook (ipynb)
- - [ ] Hello Plotly
-- Part 1 - Key Concepts
- - [ ] Vectors & Distances (nb)
- - [ ] Error & Cost & Learning (nb) 
- - [ ] Measuring Success (nb)
-   - training/testing
-   - cross validaton
-   - scoring
-   - confusion matrix
- - [ ] Labelling (nb)
- - [ ] Fitting a line (nb)
- - [ ] Summarising (slides)
-- Part 2 - Classical Approaches 
- - Unsupervised
-  - [ ] Principal Component Analysis (ml.js)
-  - [ ] K-means Clustering (ml.js)
-  - [ ] Gaussian Mixure Models (gmm.js)
-  - [ ] Heirarchical Learning (ml.js)
- - Supervised Learning
-  - [ ] K-Nearest Neighbor (ml.js)
-  - [ ] Naive Bayes (ml.js)
-  - [ ] Support Vector Machines (ml.js)
-- Part 3 - Neural Networks & Deep Learning
- - [ ] Code your own neuron (nb)
- - [ ] Multilayer perceptron (nb)
- - [ ] Convolutional Neural Network (nb)
-- Part 4 - Running large models in the browser with Keras.js
- - [ ] Running Inception
-
-## References
-
-### Sources of Data
- 
- - https://github.com/viisar/awesome-datasets
- - https://github.com/caesar0301/awesome-public-datasets
- - https://github.com/caesar0301/awesome-public-datasets#machine-learning
+### Setting up to run Keras.js models in the browser
+...
