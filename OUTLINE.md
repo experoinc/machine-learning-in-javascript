@@ -19,11 +19,9 @@ Steve Purves, [Expero inc](www.experoinc.com).
   - [->] [Hello Plotly](2_hello_plotly.ipynb)
   - [->] [Hello Datasets]()
 - Part 1 - Key Concepts
-  - [ ] Vectors, Distances & Spaces (nb)
-    - Vector spaces
-    - Projection
-    - Function spaces
-    - Applying a distance measure
+  - [x] Vectors & Spaces (nb)
+  - [->] Distances (nb)
+  - Exercise: Applying a distance measure
   - [ ] Error, Cost, Loss & Learning (nb) 
   - [ ] Measuring Success (nb)
      - training/testing
