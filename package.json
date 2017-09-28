@@ -26,10 +26,17 @@
     "babel-runtime": "^6.26.0",
     "csv-parse": "^1.2.2",
     "lodash": "^4.17.4",
+    "ndarray": "^1.0.18",
+    "ndarray-fill": "^1.0.2",
+    "ndarray-linspace": "^2.0.3",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-pack": "^1.2.1",
+    "ndarray-unpack": "^1.0.0",
     "node-fetch": "^1.7.3",
     "pandas-js": "^0.2.4",
     "plotly": "^1.0.6",
     "plotly-notebook-js": "^0.1.2",
-    "vis": "^4.20.1"
+    "vis": "^4.20.1",
+    "zeros": "^1.0.0"
   }
 }

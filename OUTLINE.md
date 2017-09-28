@@ -14,21 +14,21 @@ Steve Purves, [Expero inc](www.experoinc.com).
 - Checking Environment Setup & Sharpening of Tools
   - [x] Installation Instructions
   - [ ] Docker Option
-  - [->] [What's Loaded (nb)](0_smoke_test.ipynb)
-  - [->] [Hello Notebook (nb)](1_hello_notebook.ipynb)
-  - [->] [Hello Plotly](2_hello_plotly.ipynb)
-  - [->] [Hello Datasets]()
+  - [->] [What's Loaded (nb)](0.0_smoke_test.ipynb)
+  - [->] [Hello Notebook (nb)]0.1_hello_notebook.ipynb)
+  - [->] [Hello Plotly](0.2_hello_plotly.ipynb)
+  - [->] [Hello Datasets](0.3_hello_datasets.ipynb)
+  - [->] [Hello ndarray](0.4_hello_ndarray.ipynb)
 - Part 1 - Key Concepts
   - [x] Vectors & Spaces (nb)
-  - [->] Distances (nb)
-  - Exercise: Applying a distance measure
+  - [->] Distances & Costs (nb)
+  - [->] Exercise: Applying a distance measure
   - [ ] Error, Cost, Loss & Learning (nb) 
   - [ ] Measuring Success (nb)
      - training/testing
      - cross validaton
      - scoring
      - confusion matrix
-  - [ ] Labelling (nb)
   - [ ] Fitting a line (nb)
   - [ ] Summarising (slides)
 - Part 2 - Classical Approaches 
