@@ -24,6 +24,7 @@
   "homepage": "https://github.com/experoinc/machine-learning-in-javascript#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
+    "console.table": "^0.9.1",
     "csv-parse": "^1.2.2",
     "encog": "^1.2.5",
     "entropyjs": "0.0.1",
@@ -49,6 +50,7 @@
     "plotly": "^1.0.6",
     "plotly-notebook-js": "^0.1.2",
     "regression": "^2.0.0",
+    "text-table": "^0.2.0",
     "vis": "^4.20.1",
     "zeros": "^1.0.0"
   }

@@ -21,8 +21,9 @@ Steve Purves, [Expero inc](www.experoinc.com).
   - [->] [Hello ndarray](0.4_hello_ndarray.ipynb)
 - Part 1 - Key Concepts
   - [x] Vectors & Spaces (nb)
-  - [->] Distances & Costs (nb)
-  - [->] Exercise: Applying a distance measure
+  - [x] Distances & Costs (nb)
+  - [x] Exercise: Applying a distance measure
+  - [ ] Classification (slides)
   - [ ] Error, Cost, Loss & Learning (nb) 
   - [ ] Measuring Success (nb)
      - training/testing
@@ -33,13 +34,17 @@ Steve Purves, [Expero inc](www.experoinc.com).
   - [ ] Summarising (slides)
 - Part 2 - Classical Approaches 
   - Unsupervised
+    - [->] K-means Clustering (ml.js)
+    - [ ] Determining Number of Clusers (ml.js)
+    - [ ] Emsemble Methods (slides)
+    - Stretch:
+      - [ ] Gaussian Mixure Models (gmm.js)
+      - [ ] Heirarchical Learning (ml.js)
+  - Embeddings
     - [ ] Principal Component Analysis (ml.js)
-    - [ ] K-means Clustering (ml.js)
-    - [ ] Gaussian Mixure Models (gmm.js)
-    - [ ] Heirarchical Learning (ml.js)
+    - [ ] tSNE    
   - Supervised Learning
     - [ ] K-Nearest Neighbor (ml.js)
-    - [ ] Naive Bayes (ml.js)
     - [ ] Support Vector Machines (ml.js)
 - Part 3 - Neural Networks & Deep Learning
     - [ ] Code your own neuron (nb)
