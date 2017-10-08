@@ -25,6 +25,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "console.table": "^0.9.1",
+    "convnetjs": "^0.3.0",
     "csv-parse": "^1.2.2",
     "encog": "^1.2.5",
     "entropyjs": "0.0.1",

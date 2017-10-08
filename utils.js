@@ -57,6 +57,7 @@ function grid2(range=[-1,1], step=0.01) {
         }
         X.push(x)
     }
+    return X;
 }
 
 module.exports = {
