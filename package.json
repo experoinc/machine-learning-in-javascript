@@ -29,6 +29,8 @@
     "csv-parse": "^1.2.2",
     "encog": "^1.2.5",
     "entropyjs": "0.0.1",
+    "expectation-maximization": "^1.5.0",
+    "gaussian-mixture-model": "^0.1.4",
     "lodash": "^4.17.4",
     "ml-confusion-matrix": "^0.3.0",
     "ml-cross-validation": "^1.1.0",
