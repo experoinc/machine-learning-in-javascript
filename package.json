@@ -48,6 +48,7 @@
     "ndarray-ops": "^1.2.2",
     "ndarray-pack": "^1.2.1",
     "ndarray-unpack": "^1.0.0",
+    "neocortex-js": "^0.5.0",
     "node-fetch": "^1.7.3",
     "pandas-js": "^0.2.4",
     "plotly": "^1.0.6",
