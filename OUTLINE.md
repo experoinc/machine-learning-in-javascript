@@ -4,21 +4,20 @@ Steve Purves, [Expero inc](www.experoinc.com).
 ## Course Outline
 
 - Icebreaker
-  - [ ] Warm Up 
-  - [ ] Menti Meter
+  - [x] Warm Up 
+  - [x] Menti Meter
 - Introduction
-  - [ ] Why not JavaScript? (slides)
+  - [x] Why not JavaScript? (slides)
     - Where ML in JS takes us (slides)
     - What the ML JS landscape is like
   - [x] Course Outline (md)
 - Checking Environment Setup & Sharpening of Tools
   - [x] Installation Instructions
   - [ ] Docker Option
-  - [->] [What's Loaded (nb)](0.0_smoke_test.ipynb)
-  - [->] [Hello Notebook (nb)]0.1_hello_notebook.ipynb)
-  - [->] [Hello Plotly](0.2_hello_plotly.ipynb)
-  - [->] [Hello Datasets](0.3_hello_datasets.ipynb)
-  - [->] [Hello ndarray](0.4_hello_ndarray.ipynb)
+  - [x] [What's Loaded (nb)](0.0_smoke_test.ipynb)
+  - [x] [Hello Notebook (nb)]0.1_hello_notebook.ipynb)
+  - [x] [Hello Plotly](0.2_hello_plotly.ipynb)
+  - [x] [Hello Datasets](0.3_hello_datasets.ipynb)
 - Part 1 - Key Concepts
   - [x] Vectors & Spaces (nb)
   - [x] Distances & Costs (nb)
