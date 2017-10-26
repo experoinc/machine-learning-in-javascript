@@ -31,6 +31,7 @@
     "entropyjs": "0.0.1",
     "expectation-maximization": "^1.5.0",
     "gaussian-mixture-model": "^0.1.4",
+    "libsvm-js": "^0.1.2",
     "lodash": "^4.17.4",
     "ml-confusion-matrix": "^0.3.0",
     "ml-cross-validation": "^1.1.0",
@@ -56,6 +57,7 @@
     "plotly": "^1.0.6",
     "plotly-notebook-js": "^0.1.2",
     "regression": "^2.0.0",
+    "svm": "^0.1.1",
     "text-table": "^0.2.0",
     "vis": "^4.20.1",
     "zeros": "^1.0.0"

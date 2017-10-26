@@ -1,0 +1,3 @@
+[submodule "keras-js-demos-data"]
+	path = keras-js-demos-data
+	url = https://github.com/transcranial/keras-js-demos-data.git
