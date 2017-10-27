@@ -15,7 +15,7 @@ Steve Purves, [Expero inc](www.experoinc.com).
   - [x] Installation Instructions
   - [ ] Docker Option
   - [x] [What's Loaded (nb)](0.0_smoke_test.ipynb)
-  - [x] [Hello Notebook (nb)]0.1_hello_notebook.ipynb)
+  - [x] [Hello Notebook (nb)](0.1_hello_notebook.ipynb)
   - [x] [Hello Plotly](0.2_hello_plotly.ipynb)
   - [x] [Hello Datasets](0.3_hello_datasets.ipynb)
 - Part 1 - Key Concepts
