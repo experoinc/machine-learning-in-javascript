@@ -83,5 +83,6 @@ function grid2(range=[-1,1], step=0.01) {
 module.exports = {
     loadUnlabelledWine,
     loadLabelledWine,
-    grid2
+    grid2,
+    plotClustersWithLabels
 };
