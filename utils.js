@@ -46,6 +46,26 @@ function loadWine(filename, options) {
     }
 }
 
+function plotClustersWithLabels(x, y, labels, title) {
+    var trace = { 
+        x,
+        y,
+        mode: 'markers',
+        marker: { 
+            color: labels, // <- here are our results
+            size: 8,
+            colorbar: {
+                xpad: 100
+            }
+        },
+        type: 'scatter'
+    };
+
+    var defaults = { width: 800, height: 700, xaxis: { title: features[0] }, yaxis: { title: features[11] }, title};
+
+    return Plot.createPlot([trace], defaults).render()
+}
+
 function grid2(range=[-1,1], step=0.01) {
     var X = [];
 

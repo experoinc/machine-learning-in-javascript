@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/experoinc/machine-learning-in-javascript#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "console.table": "^0.9.1",
     "convnetjs": "^0.3.0",
@@ -31,6 +34,7 @@
     "entropyjs": "0.0.1",
     "expectation-maximization": "^1.5.0",
     "gaussian-mixture-model": "^0.1.4",
+    "libsvm-js": "^0.1.2",
     "lodash": "^4.17.4",
     "ml-confusion-matrix": "^0.3.0",
     "ml-cross-validation": "^1.1.0",
@@ -56,8 +60,10 @@
     "plotly": "^1.0.6",
     "plotly-notebook-js": "0.1.2",
     "regression": "^2.0.0",
+    "svm": "^0.1.1",
     "text-table": "^0.2.0",
     "vis": "^4.20.1",
+    "yarn": "^1.3.2",
     "zeros": "^1.0.0"
   }
 }
